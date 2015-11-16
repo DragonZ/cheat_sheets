@@ -86,3 +86,27 @@ Clean git
 		- -f <path> ==> remove untracked files @ <path>
 		- -df ==> remove untracked files and directories
 		- -xf ==> remove untracked files as well as any files that git usually ignores
+
+Manage connection
+	- git remote
+		- null ==> list remote connections
+		- -v ==> list & include URL
+		- add <name> <url> ==> add remote repo, <name> can be used as reference
+		- rm <name> ==> remove connection
+		- rename <old-name> <new-name> ==> rename one connection
+		- origin remote is created by clone
+
+Get remote changes
+	- git fetch
+		- <remote> ==> fetch all branches
+		- <remote> <branch> ==> fetch specific branch
+	
+Check remote branch
+	- git branch
+		- r ==> list remote branches with repo prefix
+
+Merge changes
+	- git merge
+
+Fetch&Merge remote changes
+	- git pull
