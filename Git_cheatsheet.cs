@@ -98,6 +98,7 @@ Manage connection
 
 Get remote changes
 	- git fetch
+		- null ==> it works in simple case, try avoid using no parameters
 		- <remote> ==> fetch all branches
 		- <remote> <branch> ==> fetch specific branch
 	
@@ -106,6 +107,7 @@ Check remote branch
 		- r ==> list remote branches with repo prefix
 
 Merge changes
+	* TODO if I made changes and remote is updated by others, merge conflicts need to be resolved *
 	- git merge
 
 Fetch&Merge remote changes
