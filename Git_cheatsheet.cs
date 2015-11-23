@@ -112,3 +112,8 @@ Merge changes
 
 Fetch&Merge remote changes
 	- git pull
+		- <remote> ==> equal = git fetch <remote> + git merge origin/<current-branch>
+		- --rebase <remote> ==> same as previous, but git [rebase] instead of [merge]
+							==> like saying, “I want to put my changes on top of what everybody else has done.”
+							==> <git config --global branch.autosetuprebase always> always rebase not merge
+
