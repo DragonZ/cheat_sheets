@@ -117,3 +117,5 @@ Fetch&Merge remote changes
 							==> like saying, “I want to put my changes on top of what everybody else has done.”
 							==> <git config --global branch.autosetuprebase always> always rebase not merge
 
+Upload changes
+	- git push
