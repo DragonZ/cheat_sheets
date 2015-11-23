@@ -120,4 +120,6 @@ Fetch&Merge remote changes
 Upload changes
 	- git push
 		- <remote> <branch> ==> push & creates a local branch in the destination, not allow non-fast-forward merge in the destination repository
-		- <remote> --force
+		- <remote> --force ==> same as previous, but force to do even non-fast-forward * dangerous *
+		- <remote> --all ==> push all local branches
+		- <remote> --tags ==> send all tags to remote, default not send
