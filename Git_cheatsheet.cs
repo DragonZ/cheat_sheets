@@ -119,3 +119,4 @@ Fetch&Merge remote changes
 
 Upload changes
 	- git push
+		- <remote> <branch>
