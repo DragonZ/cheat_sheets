@@ -24,4 +24,14 @@ Memcached python API
 	    # now have obj, and future passes	#
 	    # through this code, will use the	#
 	    # object from the cache				#
-	more
+
+
+
+Redis directory structure
+	|- redis.conf ==> redis configuration template
+	|- src ==> all source code and compiled programs
+		|- redis-cli ==> interactive client 
+		|- redis-server ==> server
+		|- dump.rdb ==> default setting persistence file in binary
+	|- utils
+		|- redis_init_script ==> sample init script for production environment 
