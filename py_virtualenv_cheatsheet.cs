@@ -1,3 +1,5 @@
+Source: http://docs.python-guide.org/en/latest/dev/virtualenvs/
+
 -- virtualenv --
 Install
 	- pip install virtualenv
