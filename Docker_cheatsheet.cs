@@ -15,4 +15,8 @@ docker
 	- version ==> client & server/daemon info
 	- <subcommand> --help ==> all/subcommand help info
 	- port <container-id/name> <container-port> ==> port mapping info
+
+SHORTCUT
+	- docker stop $(docker ps -a -q) ==> stop all containers
+	- docker rm $(docker ps -a -q) ==> remove all containers
 	
