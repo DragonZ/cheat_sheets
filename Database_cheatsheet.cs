@@ -25,3 +25,7 @@ Internal commands ==> end with ;
 	- quit/exit ==> no ; needed
 
 Query ==> SQL, end with ;
+
+Mac Notes
+	- after installation, need to set path for commands (see my .bash_profile)
+	- first login, use (SET PASSWORD = PASSWORD('your_new_password');) to set password
